@@ -63,7 +63,7 @@ function Recommendation(){
                                 return (
                                     <div>
                                         <SwiperSlide className="relative">
-                                            <img src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`} alt="img" className="rounded-lg"/>
+                                            <img src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`} alt="Recommended" className="rounded-lg"/>
                                             <div className="absolute bottom-3 px-6 pb-3 w-full text-white">
                                                 <div className="flex justify-between items-center">
                                                     <p className=" text-lg font-semibold">Make Agree</p>
