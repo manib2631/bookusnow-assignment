@@ -10,7 +10,7 @@ function Card(props){
         <div className=" flex-wrap w-[25%] border border-[#B0BABF] rounded-lg justify-between pt-2">
             {/* Image waala div */}
             <div className=" flex-wrap pt-2">
-                <img src={`https://drive.google.com/thumbnail?id=${id}&sz=w300`} />
+                <img src={`https://drive.google.com/thumbnail?id=${id}&sz=w300`} alt="Banner image"/>
             </div>
 
             {/* Description DIV */}
