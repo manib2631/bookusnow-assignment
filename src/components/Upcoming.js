@@ -16,9 +16,7 @@ function Upcoming(){
 
     function fetchNewData(){
         {
-            pageNum <= 4? (setPageNum(pageNum+1)) : (
-                setHasMore(false)
-            )
+            pageNum <= 4 ? setPageNum(pageNum+1) : setHasMore(false);
         }
         async function fetchData(){
             setLoading(true);
