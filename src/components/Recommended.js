@@ -29,7 +29,7 @@ function Recommendation(){
         fetchData();
     }, [])
 
-    const [swiperRef, setSwiperRef] = useState(null);
+    const [setSwiperRef] = useState(null);
 
     return(
         <div className="w-10/12 mx-auto mt-2 recommended-events">
