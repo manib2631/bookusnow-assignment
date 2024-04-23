@@ -1,7 +1,7 @@
 import { FaLocationDot } from "react-icons/fa6";
 
 
-function Card(props){
+function Card(props) {
     let event = props.event;
     let urlSplit = event.imgUrl.split('/');
     let id = urlSplit[5];
